@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Politica de Confidențialitate - Lucrează de Acasă</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4F46E5',
+                        secondary: '#FF6B35',
+                        accent: '#00C896',
+                        dark: '#1E293B',
+                        light: '#F8FAFC'
+                    }
+                }
+            }
+        }
+        
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+        
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        });
+    </script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #4F46E5, #7C3AED);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .dark body {
+            background-color: #1E293B;
+            color: #F8FAFC;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-white dark:bg-dark text-gray-800 dark:text-gray-100">
+    <div class="w-[95%] md:w-[80%] max-w-4xl mx-auto py-8">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold gradient-text mb-4">Politica de Confidențialitate</h1>
+            <p class="text-lg text-gray-600 dark:text-gray-400">Ultima actualizare: Noiembrie 2024</p>
+        </header>
+
+        <!-- Content -->
+        <div class="space-y-8">
+            <!-- Introduction -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-shield-alt mr-2"></i>Introducere
+                </h2>
+                <p class="text-lg leading-relaxed mb-4">
+                    Această Politică de Confidențialitate descrie modul în care colectăm, folosim și protejăm informațiile dumneavoastră personale când vizitați site-ul nostru web sau participați la programul nostru de lucru de acasă.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    Ne angajăm să protejăm confidențialitatea dumneavoastră și să respectăm toate legile aplicabile privind protecția datelor, inclusiv Regulamentul General privind Protecția Datelor (GDPR).
+                </p>
+            </section>
+
+            <!-- Data Collection -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-database mr-2"></i>Informațiile pe Care le Colectăm
+                </h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Informații Personale</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                            <li>Nume și prenume</li>
+                            <li>Adresa de email</li>
+                            <li>Numărul de telefon</li>
+                            <li>Vârsta (pentru verificarea eligibilității)</li>
+                            <li>Informații despre experiența profesională</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Informații Tehnice</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                            <li>Adresa IP</li>
+                            <li>Tipul și versiunea browserului</li>
+                            <li>Sistemul de operare</li>
+                            <li>Informații despre dispozitiv</li>
+                            <li>Istoricul de navigare pe site</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Usage -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-cogs mr-2"></i>Cum Folosim Informațiile
+                </h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3">Scopuri Principale</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                            <li>Procesarea aplicațiilor pentru program</li>
+                            <li>Comunicarea cu candidații</li>
+                            <li>Furnizarea serviciilor de training</li>
+                            <li>Procesarea plăților</li>
+                            <li>Oferirea suportului pentru clienți</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3">Scopuri Secundare</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                            <li>Îmbunătățirea site-ului web</li>
+                            <li>Analize și statistici</li>
+                            <li>Marketing și comunicări promocionale</li>
+                            <li>Respectarea obligațiilor legale</li>
+                            <li>Prevenirea fraudelor</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cookies -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-cookie-bite mr-2"></i>Politica Cookie-urilor
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed">
+                        Site-ul nostru folosește cookie-uri pentru a îmbunătăți experiența utilizatorului și pentru a analiza traficul web.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                            <h4 class="font-semibold text-accent mb-2">Cookie-uri Esențiale</h4>
+                            <p class="text-sm">Necesare pentru funcționarea de bază a site-ului</p>
+                        </div>
+                        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                            <h4 class="font-semibold text-accent mb-2">Cookie-uri Analitice</h4>
+                            <p class="text-sm">Ne ajută să înțelegem cum utilizați site-ul</p>
+                        </div>
+                        <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg">
+                            <h4 class="font-semibold text-accent mb-2">Cookie-uri Marketing</h4>
+                            <p class="text-sm">Pentru personalizarea conținutului și reclamelor</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Third Party Services -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-handshake mr-2"></i>Servicii Terțe
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed">
+                        Pentru a furniza serviciile noastre, colaborăm cu următoarele tipuri de furnizori terți:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3">Servicii de Comunicare</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>WhatsApp Business</li>
+                                <li>Servicii de email marketing</li>
+                                <li>Platforme de mesagerie</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3">Servicii de Analiză</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>Google Analytics</li>
+                                <li>Instrumente de tracking</li>
+                                <li>Platforme de optimizare</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- User Rights -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-user-shield mr-2"></i>Drepturile Dumneavoastră
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed mb-6">
+                        În conformitate cu GDPR, aveți următoarele drepturi cu privire la datele dumneavoastră personale:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-eye text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul de Acces</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să solicitați o copie a datelor pe care le procesăm</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-edit text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul de Rectificare</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să corectați informațiile inexacte</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-trash text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul la Ștergere</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să solicitați ștergerea datelor în anumite condiții</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-ban text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul la Restricționare</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să limitați procesarea datelor</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-download text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul la Portabilitate</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să primiți datele într-un format structurat</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-primary text-white p-2 rounded-full mr-4 mt-1">
+                                    <i class="fas fa-stop text-sm"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold">Dreptul de Opoziție</h4>
+                                    <p class="text-sm text-gray-600 dark:text-gray-400">Să vă opuneți anumitor tipuri de procesare</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Security -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-lock mr-2"></i>Securitatea Datelor
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed mb-4">
+                        Implementăm măsuri tehnice și organizatorice corespunzătoare pentru a proteja datele dumneavoastră personale împotriva:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 text-accent">Măsuri Tehnice</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>Criptarea datelor în tranzit și în repaus</li>
+                                <li>Firewalls și sisteme de detectare a intruziunilor</li>
+                                <li>Actualizări regulate de securitate</li>
+                                <li>Backup-uri sigure și redundante</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-3 text-accent">Măsuri Organizatorice</h3>
+                            <ul class="list-disc list-inside space-y-2 text-gray-700 dark:text-gray-300">
+                                <li>Acces restricționat la date</li>
+                                <li>Training regulat pentru personal</li>
+                                <li>Politici și proceduri de securitate</li>
+                                <li>Monitorizare și audit regulat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Retention -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-clock mr-2"></i>Păstrarea Datelor
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed mb-4">
+                        Păstrăm datele dumneavoastră personale doar atât timp cât este necesar pentru scopurile pentru care au fost colectate:
+                    </p>
+                    <div class="bg-gray-50 dark:bg-gray-700 p-6 rounded-lg">
+                        <div class="grid md:grid-cols-3 gap-4 text-center">
+                            <div>
+                                <div class="text-2xl font-bold text-primary mb-2">30 zile</div>
+                                <p class="text-sm">Date de navigare și cookie-uri</p>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-primary mb-2">2 ani</div>
+                                <p class="text-sm">Aplicații și comunicări</p>
+                            </div>
+                            <div>
+                                <div class="text-2xl font-bold text-primary mb-2">7 ani</div>
+                                <p class="text-sm">Înregistrări financiare (conform legii)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             
+
+            <!-- Updates -->
+            <section class="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold text-primary mb-4">
+                    <i class="fas fa-sync-alt mr-2"></i>Actualizări ale Politicii
+                </h2>
+                <div class="space-y-4">
+                    <p class="text-lg leading-relaxed">
+                        Ne rezervăm dreptul de a actualiza această Politică de Confidențialitate periodic pentru a reflecta schimbările în practicile noastre sau pentru alte motive operaționale, legale sau de reglementare.
+                    </p>
+                    <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-400 p-4">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+                            </div>
+                            <div class="ml-3">
+                                <p class="text-sm text-yellow-700 dark:text-yellow-200">
+                                    <strong>Notă Importantă:</strong> Vă vom notifica despre orice modificări semnificative prin email sau prin postarea unui anunț vizibil pe site-ul nostru web cu cel puțin 30 de zile înainte de intrarea în vigoare.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+        </div>
+    </div>
+
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Back to top functionality
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop?.classList.remove('hidden');
+            } else {
+                backToTop?.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
